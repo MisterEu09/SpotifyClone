@@ -1,0 +1,271 @@
+
+/* Estiliza o corpo da página */
+body{
+    background-color: var(--color-preto); /* Define a cor de fundo */
+    font-family: var(--font-dm-sans); /* Define a fonte padrão */
+}
+
+/* Configuração da sidebar (barra lateral) */
+.sidebar {
+    position: fixed; /* Fixa a posição na tela */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px; 
+    width: 310px; /* Define a largura fixa da barra lateral */
+}
+
+/* Estiliza a navegação da sidebar */
+.sidebar_navigation {
+    background-color: var(--color-cinza-escuro);
+    border-radius: 8px; /* Adiciona cantos arredondados */
+    padding: 16px 0 0 16px;
+}
+
+/* Configuração do logo na sidebar */
+.sidebar_navigation .logo{
+    background-color: var(--color-cinza-escuro);
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+/* Define o tamanho do logo */
+.logo img {
+    width: 80px;
+}
+
+/* Estiliza a lista de navegação dentro da sidebar */
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+/* Configuração dos itens da lista dentro da sidebar */
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+/* Estiliza os links da sidebar */
+.sidebar nav ul li a {
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 14px;
+    font-family: var(--font-dm-sans);
+}
+
+/* Estiliza a biblioteca dentro da sidebar */
+.library {
+    background-color: var(--color-cinza-escuro);
+    border-radius: 8px;
+    padding: 4px 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 14px;
+    flex-direction: column; /* Posiciona os itens verticalmente */
+}
+
+/* Estiliza o botão da biblioteca */
+.library .library__button {
+    margin-right: 10px;
+    background-color: transparent;
+    border: 0;
+    font-size: 1rem;
+    color: var(--color-text);
+    font-weight: 700;
+    font-family: var(--font-dm-sans);
+    text-align: center;
+    padding: 20px 10px;
+}
+.library .library__content{display: flex; justify-content: space-between; }
+
+.library .library__button .fa
+{
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 10px;
+    padding-right: 8px;
+}
+.library .library__content .fa-plus{margin: 24px 10px;}
+
+.itens_library img{width: 50px;  background-color: var(--color-cinza-escuro);}
+/* Adicionando o estilo para o container da seção da playlist */
+.section-playlist {
+    padding-top: 20px;
+    display: flex; /* Flexbox para garantir que a seção se ajuste de forma responsiva */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+/* Estilos para a lista de itens (ul) */
+.itens_library {
+    display: grid; /* Definindo grid para organizar os itens */
+    grid-template-columns: 1fr; /* 1 coluna por padrão */
+    gap: 16px; /* Espaço entre os itens */
+    list-style: none; /* Remove o marcador de lista */
+    padding: 0; /* Remove o padding da lista */
+}
+
+/* Estilos para o item da lista (li) */
+.itens_library li {
+    display: flex; /* Usamos flex para alinhar imagem e texto */
+    /*background-color: #c70d0deb; /* Fundo claro para o item */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve para o item */
+    width: 270px;
+}
+
+/* Estilos para o link (a) */
+.itens_library a {
+    display: flex;
+    color: inherit; /* Herda a cor do elemento pai */
+}
+
+/* Estilos para a imagem dentro do item */
+.itens_library img {
+    width: 50px; /* Ajuste o tamanho da imagem */
+    height: 50px; /* Ajuste a altura da imagem */
+    object-fit: cover; /* Faz a imagem cobrir o espaço sem distorção */
+    border-radius: 8px; /* Bordas arredondadas na imagem */
+    margin-right: 12px; /* Espaço entre a imagem e o texto */
+}
+
+/* Alinha os elementos de informações em coluna com título separado */
+.info_playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Estilo para o título e informações da playlist */
+.info_playlist p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--color-text);
+}
+
+/* Estilo para a linha que contém o ícone e informações */
+.info_playlist_bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 4px; /* Pequeno espaço entre o título e as informações */
+    gap: 5px;
+}
+
+/* Estilo para o ícone SVG */
+.info_playlist svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
+
+/* Estilo para o texto da informação adicional */
+.NVHSG1CguVgjg5bJ64_Z {
+    font-size: 14px;
+    color: var(--color-text);
+}
+.info_playlist svg {
+    fill: currentColor;
+}
+.info_playlist svg {
+    width: 16px;
+    height: 16px;
+    fill: #1DB954; /* Cor branca */
+}
+
+
+
+/* Estiliza a seção de playlists */
+.section-playlist-off {
+    background-color: var(--color-cinza-claro);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+.section-playlist-off .section-playlist-off__content 
+{display: flex; flex-direction: column;}
+.section-playlist-off__content .text{padding: 14px; color: var(--color-text); font-family: var(--font-dm-sans);}
+.section-playlist-off__content .title{font-weight: 700;}
+.section-playlist-off__content .subtitle{font-weight: 500;font-size: 12px;}
+
+.section-playlist-off__content .section-playlist__button{
+    background-color: var(--color-branco);
+    justify-content: center;
+    display: flex;
+    color: var(--color-preto); 
+    border-radius: 20px;
+    font-size: 12px; 
+    font-weight: 700;
+    font-family: var(--font-dm-sans);
+    padding: 10px;
+    border: 0; 
+    margin-top: 12px;
+    width: 113px;
+}
+.sidebar .cookies{margin: 25px 20px;}
+.sidebar .cookies a{color: var(--color-text); font-weight: 500; font-size: 10px;}
+.sidebar .cookies a:hover{text-decoration: underline;}
+.languages .languages_button{
+    background-color: transparent; 
+    border: 1px solid #878787; 
+    color: var(--color-branco); 
+    font-weight: bold; 
+    cursor: pointer; 
+    width: 170px; 
+    margin: 8px; 
+    padding: 8px; 
+    -radius: 20px;}
+
+.logado{display: none;}
+.option{padding: 16px 0;}
+.option span
+{
+    font-size: 14px;
+    border-radius: 13px;
+    background-color: var(--color-cinza);
+    color: var(--color-text); 
+    padding: 5.5px;
+    width: auto;
+}
+
+/* Configurações do footer (rodapé) */
+footer {
+    background: linear-gradient(118deg, rgba(202,19,234,1) 0%, rgba(163,99,255,1) 63%, rgba(33,161,246,1) 100%);
+    width: 98vw;
+    position: fixed;
+    bottom: 0; 
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* Estiliza o botão de inscrição no rodapé */
+.inscreva__button{
+    padding: 10px;
+    background-color: var(--color-branco);
+    color: var(--color-preto);
+    border: 1px;
+    width: 140px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+footer span{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+.footer-text{color: var(--color-branco); font-family: var(--font-dm-sans); padding: 4px; flex-shrink: 0;}
+.text-inscreva{padding-top: 8px; font-weight: 500; font-family: var(--font-dm-sans);}
+.text{font-weight: 700;}
