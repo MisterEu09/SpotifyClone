@@ -1,5 +1,4 @@
 ![image](https://github.com/user-attachments/assets/17468766-f0c0-4324-80ae-aaeb0a400f3f)
-Claro! Aqui está uma pequena descrição para o seu projeto de clone do Spotify, baseada no código HTML, CSS e JavaScript que você forneceu:
 
 **Descrição do Projeto:**
 
