@@ -1,25 +1,35 @@
 const searchInput = document.getElementById('search-input');
 const resultArtist = document.getElementById("result-artist");
 const resultPlaylist = document.getElementById('result-playlists');
-const artistContainer = document.querySelector('.grid-container'); // Certifique-se que esta classe existe no HTML
+const artistContainer = document.querySelector('.grid-container');
 
 function requestApi(searchTerm) {
-    const url = `http://localhost:5000/artists`; // Pegamos todos os artistas
+    const url = `http://localhost:5500/api-artists/artists.json`;
 
     fetch(url)
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Erro na API: ${response.status} ${response.statusText}`);
+            }
+            return response.json();
+        })
         .then(data => {
-            console.log("Dados da API antes do filtro:", data); // Depuração
+            console.log("Dados da API antes do filtro:", data);
 
-            const filteredArtists = data.filter(artist =>
+            // Acesse o array de artistas através da propriedade 'artists'
+            const artists = data.artists;
+
+            const filteredArtists = artists.filter(artist =>
                 artist.name.toLowerCase().includes(searchTerm.toLowerCase())
             );
 
-            console.log("Dados filtrados:", filteredArtists); // Depuração
+            console.log("Dados filtrados:", filteredArtists);
             displayResults(filteredArtists);
         })
         .catch(error => console.error("Erro na API:", error));
 }
+
+// Restante do seu código...
 
 
 function displayResults(result) {

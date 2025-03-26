@@ -46,85 +46,85 @@
       "id": 8,
       "name": "Imagine Dragons",
       "genre": "Rock",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174b1780e3c3b1ab8c5e0c8049a"
+      "urlImg": "https://i.scdn.co/image/ab67616100005174ab47d8dae2b24f5afe7f9d38"
     },
     {
       "id": 9,
       "name": "Ado",
       "genre": "Pop",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174aeb3d22b6ef02a76c6c1c422"
+      "urlImg": "https://i.scdn.co/image/ab67616100005174bcb1c184c322688f10cdce7a"
     },
     {
       "id": 10,
       "name": "AC/DC",
       "genre": "Rock",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174f58891d72a25fe0ba0485e60"
+      "urlImg": "https://i.scdn.co/image/ab67616100005174c4c77549095c86acb4e77b37"
     },
     {
       "id": 11,
       "name": "Beyoncé",
       "genre": "R&B",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174d0c767c076b45c9783137e72"
+      "urlImg": "https://i.scdn.co/image/ab676161000051747eaa373538359164b843f7c0"
     },
     {
       "id": 12,
       "name": "Ariana Grande",
       "genre": "Pop",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174e4cfddf5fc0a47970312a999"
+      "urlImg": "https://i.scdn.co/image/ab676161000051746725802588d7dc1aba076ca5"
     },
     {
       "id": 13,
       "name": "Ed Sheeran",
       "genre": "Pop",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174c759fa8970b857717f517cf1"
+      "urlImg": "https://i.scdn.co/image/ab67616100005174399444ed4eace08b549d1161"
     },
     {
       "id": 14,
       "name": "Kendrick Lamar",
       "genre": "Hip Hop",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174e51a6ac8b2c63dba40c1a960"
+      "urlImg": "https://i.scdn.co/image/ab6761610000517439ba6dcd4355c03de0b50918"
     },
     {
       "id": 15,
       "name": "Taylor Swift",
       "genre": "Pop",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174af6dcb221bbdd354c5d522f7"
+      "urlImg": "https://i.scdn.co/image/ab67616100005174e672b5f553298dcdccb0e676"
     },
     {
       "id": 16,
       "name": "Drake",
       "genre": "Hip Hop",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174e3787c2073a32ffcbda5a24f"
+      "urlImg": "https://i.scdn.co/image/ab676161000051744293385d324db8558179afd9"
     },
     {
       "id": 17,
       "name": "Shakira",
       "genre": "Pop",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174dbeb0fc4ba0b382a94691b1f"
+      "urlImg": "https://i.scdn.co/image/ab676161000051742528c726e5ddb90a7197e527"
     },
     {
       "id": 18,
       "name": "The Weeknd",
       "genre": "Pop",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174c7b5024629c000cfe67473f0"
+      "urlImg": "https://i.scdn.co/image/ab676161000051749e528993a2820267b97f6aae"
     },
     {
       "id": 19,
       "name": "Luan Santana",
       "genre": "Sertanejo",
-      "urlImg": "https://i.scdn.co/image/ab67616100005174e74f3a90cd50a4ff52d687de"
+      "urlImg": "https://i.scdn.co/image/ab67616100005174fde13b4ff04ee1c0f33c6878"
     },
     {
       "id": 20,
       "name": "Billie Eilish",
       "genre": "Pop",
-      "urlImg": "https://i.scdn.co/image/ab6761610000517493007101e40ff3a56d41be1f"
+      "urlImg": "https://i.scdn.co/image/ab676161000051744a21b4760d2ecb7b0dcdc8da"
     },
     {
       "id": 21,
       "name": "Led Zeppelin",
       "genre": "Rock",
-      "urlImg": "https://i.scdn.co/image/ab676161000051749ba2fce66c68b6a3ebf10bb6"
+      "urlImg": "https://i.scdn.co/image/b0248a44865493e6a03832aa89854ada16ff07a8"
     }
   ]
 }
